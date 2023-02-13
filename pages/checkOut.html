@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Out</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="nav">
+      <div class="top_nav_left">
+        <a href="../index.html">
+          <img src="../photos/logo.svg" alt="logo" cursor: pointer></a
+        >
+      </div>
+      <div class="top_nav_right">
+        <div class="top_nav_links">
+          <a href="./login.html" style="text-decoration: none; color: #22235f"
+            >Log In</a
+          >
+          <a
+            href="./checkOut.html"
+            style="text-decoration: none; color: #22235f"
+            >Locations</a
+          >
+          <a href="#" style="text-decoration: none; color: #22235f"
+            >Get A Library Card</a
+          >
+          <a href="./about.html" style="text-decoration: none; color: #22235f"
+            >About Us</a
+          >
+          <a
+            class="Donate"
+            href=""
+            style="
+              text-decoration: none;
+              padding: 8px;
+              background: #22235f;
+              border-radius: 8px;
+              width: 71px;
+              height: 24px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+
+              color: #ffffff;
+            "
+            >Donate</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="check_out_header">
+      <div class="check_out_tab">
+        <h2><img src="../photos/tab.svg" width="24px" /> Check out list</h2>
+      </div>
+    </div>
+
+    <div class="check_out_search">
+      <form>
+        <div class="form_control">
+          <div class="input_div">
+            <input
+              type="text"
+              name="searchcheck"
+              id="searchcheck"
+              placeholder="Search"
+            />
+            <div class="search_icon">
+              <img
+                src="../photos/search.svg"
+                alt=""
+                width="15px"
+                height="17px"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+
+      <button>Filter</button>
+    </div>
+
+    <div style="overflow-x:auto;">
+     <div class="check_out_table">
+      <table>
+        <thead>
+          <tr>
+            <th><img src="../photos/table icon.svg" width="44px" /></th>
+            <th>Name</th>
+            <th>Barcode Number</th>
+            <th>Return Date</th>
+            <th>Pick Up Date</th>
+            <th>Actual Return Date</th>
+            <th>Overdue Fee</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="background-color: #d9d9d9">
+              <img src="../photos/table_icon_1.svg" width="42px" />
+            </td>
+            <td>Book 1</td>
+            <td>234516162545267182182112</td>
+            <td>01/02/2023</td>
+            <td>01/02/2023</td>
+            <td>Pending</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td style="background-color: #d9d9d9">
+              <img src="../photos/table_icon_2.svg" width="42px" />
+            </td>
+            <td>Book 2</td>
+            <td>234516162545267182182112</td>
+            <td>10/14/2022</td>
+            <td>10/04/2022</td>
+            <td style="color: #eb4852">01/04/2023</td>
+            <td style="color: #eb4852">$5.5</td>
+          </tr>
+          <tr>
+            <td style="background-color: #d9d9d9">
+              <img src="../photos/table_icon_3.svg" width="42px" />
+            </td>
+            <td>Book 3</td>
+            <td>234516162545267182182112</td>
+            <td>08/19/2022</td>
+            <td>08/09/2022</td>
+            <td style="color: #eb4852">09/09/2022</td>
+            <td style="color: #eb4852">$2</td>
+          </tr>
+          <tr>
+            <td style="background-color: #d9d9d9">
+              <img src="../photos/table_icon_4.svg" width="42px" />
+            </td>
+            <td>Book 4</td>
+            <td>234516162545267182182112</td>
+            <td>05/22/2023</td>
+            <td>05/12/2023</td>
+            <td>05/22/2023</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td style="background-color: #d9d9d9">
+              <img src="../photos/table_icon_5.svg" width="42px" />
+            </td>
+            <td>Book 5</td>
+            <td>234516162545267182182112</td>
+            <td>04/22/2023</td>
+            <td>03/22/2023/td></td>
+            <td style="color: #eb4852">05/22/2023</td>
+            <td style="color: #eb4852">$1</td>
+          </tr>
+        </tbody>
+      </table>
+     </div>
+    </div>
+  </body>
+</html>
